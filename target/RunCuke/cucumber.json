@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4912346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user is able to navigate the top menu on nop commerce website",
+        "description": "",
+        "id": "home-page-test;verify-user-is-able-to-navigate-the-top-menu-on-nop-commerce-website",
+        "after": [
+          {
+            "result": {
+              "duration": 617198500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55085900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "ComputerPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3420149800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "computers",
+                  "offset": 10
+                }
+              ],
+              "location": "HomePageSteps.iSelect(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32890300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am navigated to the computers page",
+            "match": {
+              "location": "HomePageSteps.iAmNavigatedToTheComputersPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke1"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "\r\nAs a user I am able to register on the nop commerce website",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
